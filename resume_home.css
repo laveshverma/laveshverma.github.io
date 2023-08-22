@@ -91,18 +91,28 @@
 
 
 .overlayText {
-  display: none;
+  transition: opacity 2s  ;
+
+  opacity: 0;
+  height: 0;
+}
+
+.timeline-content h3{
+  transition: opacity 1s ;
+  opacity: 1;
+  height: auto;
 }
 .timeline-content:hover h3{
  
-  display:none;
+  opacity: 0;
+  height: 0;
   
 }
 
 .timeline-content:hover .overlayText{
  
-  display:block;
-  
+  opacity: 1;
+  height: auto;
   
 }
 
