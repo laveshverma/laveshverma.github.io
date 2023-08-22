@@ -59,6 +59,7 @@
   box-shadow: 0 2px 29px rgba(0, 0, 0, 0.1);
   height: 300px;
   
+  
 }
 
 .timeline-content img {
@@ -128,6 +129,11 @@
   }
   #skillTitle {
     text-align: left;
+  }
+  .timeline-content {
+
+    height: auto;
+    
   }
 }
 
