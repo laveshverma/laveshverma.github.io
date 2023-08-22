@@ -1,0 +1,50 @@
+.dark {
+  background-color: black;
+  color: whitesmoke;
+}
+
+.light {
+  background-color: ghostwhite;
+  color: black;
+}
+
+.footer {
+  background-image: linear-gradient(
+    to right,
+    aquamarine,
+    paleturquoise,
+    aquamarine
+  );
+}
+
+.footer a {
+  text-decoration: none;
+  color: black;
+}
+.instagram {
+  background: linear-gradient(
+    to right top,
+    #f9a825,
+    orangered,
+    #b43695,
+    purple
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.activeLink {
+  font-weight: 700;
+}
+.form-check-input:checked {
+  background-color: darkturquoise;
+
+  box-shadow: 0 0 0 0.2rem white;
+}
+
+.form-check-input {
+  color: turquoise;
+
+  box-shadow: 0 0 0 0.2rem darkturquoise;
+}
