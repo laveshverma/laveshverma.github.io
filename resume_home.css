@@ -116,10 +116,29 @@
   height: auto;
   
 }
+.skillHeading{
+  text-decoration:underline;
+  text-decoration-thickness: 5px;
+  text-underline-offset: 10px;
+  text-decoration-color:paleturquoise;
+  color:darkturquoise;
+  writing-mode: vertical-rl;
+  -moz-transform: scale(-1, -1);
+  -webkit-transform: scale(-1, -1);
+  -o-transform: scale(-1, -1);
+  -ms-transform: scale(-1, -1);
+  transform: scale(-1, -1);
+}
 
+/*small screens */
+@media screen and (max-width: 1050px) {
+  .timeline-content {
 
+    height: auto;
+    
+  }
+}
 /* phones */
-
 @media screen and (max-width: 850px) {
   .timeline-item {
     width: 100%;
