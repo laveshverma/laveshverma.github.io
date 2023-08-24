@@ -129,7 +129,9 @@
   -ms-transform: scale(-1, -1);
   transform: scale(-1, -1);
 }
-
+.border-end {
+  border-right: 1px solid paleturquoise !important;
+}
 /*small screens */
 @media screen and (max-width: 1050px) {
   .timeline-content {
@@ -153,6 +155,9 @@
 
     height: auto;
     
+  }
+  .skillHeading{
+    text-decoration-thickness: 2px;
   }
 }
 
